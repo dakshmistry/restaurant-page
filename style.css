@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: arial;
+  font-size: 18px;
+}
+nav{
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  top: 0;
+  height: 40px;
+  font-size: 20px;
+  background: rgb(75,0,130);
+}
+a{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1 em;
+  color: white;
+}
+section{
+  height: 100vh;
+  text-align: left;
+  padding-left: 15px;
+}
+#about{
+    position: relative;
+    bottom: 300px;
+    left:1000px ;
+}
+
+section>h1{
+  padding-top: 60px;
+  font-size: 2.2em;
+}
+#main_landing_image{
+  width:50%;
+  border-radius: 8px;
+  }
+#sub_images{
+  border-radius: 8px;
+  position: relative;
+    bottom: 340px;
+    right: 100;
+  margin-left: 50px;
+  height: 26vh;
+  }
+
+#fourth_1{
+  position: relative;
+    left:500px;
+    bottom:100px ;
+}
+#map_icon{
+  width: 6vh;
+}
+#lunch_dishe_1{
+  width: 30vh;
+  position:relative;
+  left: auto;
+  bottom: auto;
+}
+#lunch_dishe_2{
+  width: 30vh;
+  position: relative;
+  left: auto;
+  bottom: auto;
+}
+#lunch_dishe_3{
+  width: 30vh;
+  position: relative;
+  left: 70vh;
+  bottom: 54vh;
+}
+#lunch_dishe_4{
+  width: 30vh;
+  position: relative;
+  left: 70vh;
+  bottom: 54vh;
+}
+#text_1{
+  position:relative;
+  bottom:13vh;
+  left:300px;
+}
+#text_2{
+  position:relative;
+  bottom:13vh;
+  left:300px;
+}
+#text_3{
+  position:relative;
+  bottom:68vh;
+  left:105vh;
+}
+#text_4{
+  position:relative;
+  bottom:66vh;
+  left:105vh;
+}
+#dinner_dishe_1{
+  width: 30vh;
+  position:relative;
+  left: auto;
+  bottom: auto;
+}
+#dinner_dishe_2{
+  width: 30vh;
+  position:relative;
+  left: auto;
+  bottom: auto;
+}
+#dinner_dishe_3{
+  width: 30vh;
+  position: relative;
+  left: 70vh;
+  bottom: 54vh;
+}
+#dinner_dishe_4{
+  width: 30vh;
+  position: relative;
+  left: 70vh;
+  bottom: 54vh;
+}
